@@ -10,7 +10,7 @@ function Home() {
         <div>
           <div className="introduction mb-[12rem] lg:flex flex-row-reverse justify-around">
             <div className="img mb-[2.4375rem]">
-              <img src="src/assets/profile-photo.png" className="mx-auto rounded-full lg:w-[17rem]" width={140} alt="Profile photo of Sushmoy" />
+              <img src="/assets/profile-photo.png" className="mx-auto rounded-full lg:w-[17rem]" width={140} alt="Profile photo of Sushmoy" />
             </div>
             <div className="description lg:text-left">
               <div className="max-w-[28rem] mx-auto">
@@ -34,13 +34,13 @@ function Home() {
           <div className="lists flex flex-wrap justify-evenly">
             <li className="hover:scale-110 transition w-[15rem] lg:w-[22rem] text-neutral-800 font-bold mb-12">
               <a href="https://github.com/sushcod3/space-tourism?tab=readme-ov-file">
-                <img className="rounded-3xl h-36 w-60 mx-auto" src="src/assets/space-tourism-screenshot.png" alt="space tourism photo" />
+                <img className="rounded-3xl h-36 w-60 mx-auto" src="/assets/space-tourism-screenshot.png" alt="space tourism photo" />
                 <p className="mt-6" >Space Tourism Website</p>
               </a>
             </li>
             <li className="hover:scale-110 transition w-[15rem] lg:w-[22rem] text-neutral-800 font-bold">
               <a href="https://github.com/sushcod3/age-calculator">
-                <img className="rounded-3xl h-36 w-60 mx-auto" src="src/assets/age-calculator.png" alt="age calculator project photo" />
+                <img className="rounded-3xl h-36 w-60 mx-auto" src="/assets/age-calculator.png" alt="age calculator project photo" />
                 <p className="mt-6" >Age Calculator App</p>
               </a>
             </li>
