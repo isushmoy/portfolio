@@ -18,7 +18,7 @@ function App() {
         <Home></Home>
       </div>
       <div className="footer nunito pb-32 lg:pb-0">
-        <div className="social-media bg-[#131313] flex justify-between items-center h-[5rem] px-6 rounded-full mb-[1rem]">
+        <div className="social-media bg-[#131313] flex justify-between items-center h-[4.5rem] px-8 rounded-full mb-[1rem]">
           <div className='text-[#6F6F6F]'>
             Follow me
           </div>

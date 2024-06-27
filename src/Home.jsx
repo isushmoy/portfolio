@@ -23,7 +23,7 @@ function Home() {
                 </p>
               </div>
               <div className="resources lg:flex items-center gap-[1.5rem]">
-                <button className="rounded-full mb-[1.4375rem] lg:mb-0"><a href="">Resume</a></button>
+                <button className="rounded-full mb-[1.4375rem] lg:mb-0"><a href="https://github.com/sushcod3/resume">Resume</a></button>
                 <a href="#experience" className="block lg:inline text-purple-400">Experiences</a>
               </div>
             </div>
@@ -31,16 +31,16 @@ function Home() {
         </div>
         <div className="projects mb-[7.5rem]">
           <h3 className="text-[2rem] text-gray-300 mb-[3.8rem]">Some of the projects that I've worked on...</h3>
-          <div className="lists flex flex-wrap justify-around">
-            <li className="hover:scale-110 transition w-[15rem] lg:w-[22rem] text-neutral-800 font-bold">
+          <div className="lists flex flex-wrap justify-evenly">
+            <li className="hover:scale-110 transition w-[15rem] lg:w-[22rem] text-neutral-800 font-bold mb-12">
               <a href="https://github.com/sushcod3/space-tourism?tab=readme-ov-file">
-                <img className="rounded-3xl" src="src/assets/space-tourism-screenshot.png" alt="space tourism photo" />
+                <img className="rounded-3xl h-36 w-60 mx-auto" src="src/assets/space-tourism-screenshot.png" alt="space tourism photo" />
                 <p className="mt-6" >Space Tourism Website</p>
               </a>
             </li>
             <li className="hover:scale-110 transition w-[15rem] lg:w-[22rem] text-neutral-800 font-bold">
               <a href="https://github.com/sushcod3/age-calculator">
-                <img className="rounded-3xl" src="src/assets/age-calculator.png" alt="age calculator project photo" />
+                <img className="rounded-3xl h-36 w-60 mx-auto" src="src/assets/age-calculator.png" alt="age calculator project photo" />
                 <p className="mt-6" >Age Calculator App</p>
               </a>
             </li>
